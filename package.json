@@ -1,0 +1,24 @@
+{
+  "name": "gride",
+  "version": "0.1.0",
+  "description": "Gride is a stylus and scss, simple grid system.",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guuibayer/gride.git"
+  },
+  "keywords": [
+    "grid",
+    "stylus",
+    "utility"
+  ],
+  "author": "guuibayer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guuibayer/gride/issues"
+  },
+  "homepage": "https://github.com/guuibayer/gride#readme"
+}
