@@ -6,9 +6,6 @@
 
 > :triangular_ruler: Gride is a stylus and scss, simple grid system.
 
-## Hey, share gride!
-[![Twitter](https://img.shields.io/twitter/url/https/www.npmjs.com/package/gride.svg?style=social)](https://twitter.com/intent/tweet?text=Gride, is a simple grid system for stylus and scss!&url=https://github.com/guuibayer/gride/)
-
 ## Documentation
 See the [documentation]() for all methods.
 
