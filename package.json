@@ -5,7 +5,7 @@
   "main": "./index.js",
   "scripts": {
     "test": "tape -r babel-register test/*.js",
-    "test:watch": "tape-watch -r babel-register test/**/* -p faucet"
+    "test:watch": "tape-watch -r babel-register test/*.js -p faucet"
   },
   "repository": {
     "type": "git",
