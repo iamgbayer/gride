@@ -23,5 +23,8 @@ See the [projects](https://github.com/guuibayer/gride/projects/1).
 
 Want to contribute? [Follow these recommendations](https://github.com/guuibayer/gride/blob/master/CONTRIBUTING.md).
 
+## Changelog
+See [here](https://github.com/guuibayer/gride/releaseshere) the last releases of gride.
+
 ## License
 [MIT License](https://github.com/guuibayer/gride/blob/master/LICENSE.md)
