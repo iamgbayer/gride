@@ -1,10 +1,10 @@
 /**
  * col()
- * col($column, $align = (middle, top, bottom))
+ * col($column, $align = (middle, top, bottom), $margin = $grid-column-gutter)
  */
-col($column, $align = top)
+col($column, $align = top, $margin = $grid-column-gutter)
   width $column * 100%
-  margin 0 $grid-column-gutter
+  margin 0 $margin
   display inline-block
   vertical-align $align
   font-size initial
