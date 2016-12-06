@@ -1,0 +1,6 @@
+{
+    "path": "./src",
+    "dest": "./dist",
+    "assets": "./src/css, ./src/img",
+    "previewMobile": false
+}
