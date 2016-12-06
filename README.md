@@ -1,8 +1,12 @@
 # Gride
 
+[![Gitter](https://img.shields.io/badge/gitter-join%20chat-1dce73.svg)](https://gitter.im/gride-grid/Lobby)
+[![npm version](https://badge.fury.io/js/gride.svg)](https://badge.fury.io/js/gride)
 [![Licence MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/guuibayer/gride/blob/master/LICENSE.md)
 
 > :triangular_ruler: Gride is a stylus and scss, simple grid system.
+## Hey, share gride!
+[![Twitter](https://img.shields.io/twitter/url/https/www.npmjs.com/package/gride.svg?style=social)](https://twitter.com/intent/tweet?text=Gride, is a simple grid system for stylus and scss!&url=https://github.com/guuibayer/gride/)
 
 ## Documentation
 See the [documentation]() for all methods.
