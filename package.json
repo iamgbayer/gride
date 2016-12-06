@@ -4,11 +4,16 @@
   "description": "Gride is a stylus and scss, simple grid system.",
   "main": "./index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape -r babel-register test/*.js",
+    "test:watch": "tape-watch -r babel-register test/**/* -p faucet"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guuibayer/gride.git"
+  },
+  "babel": {
+    "presets": ["es2015"],
+    "sourceMaps": "inline"
   },
   "keywords": [
     "grid",
