@@ -15,10 +15,24 @@ See the [documentation]() for all methods.
 ## How use
 Gride use simple units percent or fractions, use only display `inline-block` and `vertical-align`, not floats, positions and flexbox.
 
-First install gride with npm
 
-```
+```bash
+# First install gride with npm,
 npm install gride
+```
+
+```bash
+# Import gride in you main stylus file
+@import 'node_modules/gride/gride'
+```
+
+```bash
+# Or, if use gulp, in the pipe from stylus use grid() 
+gulp.task('styl', () => {
+  gulp.src('main.styl')
+    .pipe(stylus({ use: gride() }))
+    .pipe(gulp.dest('css/main.css'));
+});
 ```
 
 ## Contributing
