@@ -1,6 +1,6 @@
 {
   "name": "gride",
-  "version": "0.2.1",
+  "version": "0.3.1",
   "description": "Gride is a stylus and scss, simple grid system.",
   "main": "./index.js",
   "scripts": {
@@ -12,7 +12,9 @@
     "url": "git+https://github.com/guuibayer/gride.git"
   },
   "babel": {
-    "presets": ["es2015"],
+    "presets": [
+      "es2015"
+    ],
     "sourceMaps": "inline"
   },
   "keywords": [
