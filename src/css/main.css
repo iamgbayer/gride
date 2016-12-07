@@ -7,3 +7,33 @@ a,
 .doc-content h1,
 .option,
 .doc-search input { font-family: 'Open Sans', sans-serif; }
+
+
+.menu-top {
+    background-color: #e6e6e6;
+    box-shadow: 0px 4px 20px -6px rgba(0,0,0,0.45);
+}
+
+.menu-top a.selected
+.menu-top a:hover,
+.menu-top,
+.menu-top a,
+.menu-top a.selected,
+.menu-top a:hover {
+    color: #58585a;
+}
+
+.menu-top a.selected li {
+    border-top: 5px solid #58585a;
+}
+
+.doc-menu .options.active .option,
+.doc-menu .options.active .item-menu.active {
+    border-left: 5px solid #58585a;
+}
+
+
+
+/*#58585a*/
+
+/*box-shadow: 0px 4px 40px -6px rgba(0,0,0,0.75);*/
