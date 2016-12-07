@@ -1,6 +1,6 @@
 {
     "path": "./src",
-    "dest": "./dist",
+    "dest": "./docs",
     "assets": "../src/css/main.css",
     "logo": "../src/img/logo.png",
     "previewMobile": false
