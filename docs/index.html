@@ -6,6 +6,7 @@
     <link rel="SHORTCUT ICON" href="/favicon.ico"/>
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,800" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript">var assets="../src/css/main.css";</script>
     <link rel="stylesheet" href="css/style.css"/>
 <link rel="stylesheet" href="../src/css/main.css"/>
     <link rel="stylesheet" href="lib/codemirror.css">
@@ -45,7 +46,19 @@
         <div id="options-how" class="options">
           <a href="#how"><div class="option">How use</div></a>
           <div class="itens">
-            <!--SHOWDOC:init-group-menu-item--><!--SHOWDOC:end-group-menu-item-->
+            <!--SHOWDOC:init-group-menu-item-->
+            <a href="#how|install"><div class="item-menu">Install</div></a>
+            
+
+            <a href="#how|stylus"><div class="item-menu">Stylus</div></a>
+            
+
+            <a href="#how|gulp"><div class="item-menu">Gulp</div></a>
+            
+
+            <a href="#how|grunt"><div class="item-menu">Grunt</div></a>
+            
+<!--SHOWDOC:end-group-menu-item-->
           </div>
         </div>
         
@@ -91,6 +104,46 @@
       </div>
       
 
+      <a class="anchor" name="how|install"></a>
+      <div option="how" item="Install" class="doc-content-item">
+        <h2>Install</h2>
+
+<p>Install the current version of gride and save in dev dependencies with command below:
+<div class="box-code"><h2>Terminal</h2><textarea class="code-bind">
+npm install gride --save-dev</textarea></div></p>
+      </div>
+      
+
+      <a class="anchor" name="how|stylus"></a>
+      <div option="how" item="Stylus" class="doc-content-item">
+        <h2>Stylus</h2>
+
+<p>Install the current version of gride and save in dev dependencies with command below:
+<div class="box-code"><h2>Terminal</h2><textarea class="code-bind">
+@import &#39;node_modules/gride/gride&#39;</textarea></div></p>
+      </div>
+      
+
+      <a class="anchor" name="how|gulp"></a>
+      <div option="how" item="Gulp" class="doc-content-item">
+        <h2>Gulp</h2>
+
+<p>Install the current version of gride and save in dev dependencies with command below:
+<div class="box-code"><h2>Terminal</h2><textarea class="code-bind">
+npm install gride --save-dev</textarea></div></p>
+      </div>
+      
+
+      <a class="anchor" name="how|grunt"></a>
+      <div option="how" item="Grunt" class="doc-content-item">
+        <h2>Grunt</h2>
+
+<p>Install the current version of gride and save in dev dependencies with command below:
+<div class="box-code"><h2>Terminal</h2><textarea class="code-bind">
+npm install gride --save-dev</textarea></div></p>
+      </div>
+      
+
       <a class="anchor" name="grid"></a>
       <div option="false" item="Grid" class="doc-content-item">
         <h1>Grid</h1>
@@ -106,6 +159,14 @@
       <a class="anchor" name="grid|col"></a>
       <div option="grid" item="Col" class="doc-content-item">
         <h2>Col</h2>
+
+<p>The <strong>col()</strong> diference from <strong>span()</strong> is gutters, but gutters is configured.</p>
+
+<p>Col accept two parameters</p>
+
+<p><div class="box-code"><h2>Terminal</h2><textarea class="code-bind">
+div
+    col(1 / 2, middle)</textarea></div></p>
       </div>
       
 
