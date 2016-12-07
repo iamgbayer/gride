@@ -1,1 +1,9 @@
-h1 { color: red; }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+h1,
+h2,
+p,
+a,
+.doc-content h1,
+.option,
+.doc-search input { font-family: 'Open Sans', sans-serif; }

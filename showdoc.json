@@ -1,7 +1,8 @@
 {
     "path": "./src",
     "dest": "./docs",
-    "assets": "../src/css/main.css",
     "logo": "../src/img/logo.png",
-    "previewMobile": false
+    "style": "../src/css/main.css",
+    "previewMobile": false,
+    "title": "Gride"
 }
