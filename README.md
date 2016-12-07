@@ -7,7 +7,7 @@
 > Gride is a stylus and scss, simple grid system.
 
 ## Documentation
-See the [documentation](https://guuibayer.github.io/gride/dist/#how_use) for all methods.
+See the [documentation](http://gride.info/docs) for all methods.
 
 ## How use
 Gride use simple units percent or fractions, use only display `inline-block` and `vertical-align`, not floats, positions and flexbox.
