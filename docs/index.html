@@ -31,6 +31,12 @@
 
           <a href="#utilities"><li>Utilities</li></a>
           
+
+          <a href="#support"><li>Support</li></a>
+          
+
+          <a href="#thanks"><li>Thanks</li></a>
+          
 <!--SHOWDOC:end-top-->
         </ul>
       </div>
@@ -90,6 +96,22 @@
           </div>
         </div>
         
+
+        <div id="options-support" class="options">
+          <a href="#support"><div class="option">Support</div></a>
+          <div class="itens">
+            <!--SHOWDOC:init-group-menu-item--><!--SHOWDOC:end-group-menu-item-->
+          </div>
+        </div>
+        
+
+        <div id="options-thanks" class="options">
+          <a href="#thanks"><div class="option">Thanks</div></a>
+          <div class="itens">
+            <!--SHOWDOC:init-group-menu-item--><!--SHOWDOC:end-group-menu-item-->
+          </div>
+        </div>
+        
 <!--SHOWDOC:end-group-menu-->
 
       </div>
@@ -127,6 +149,18 @@ npm install gride --save-dev</textarea></div></p>
       <a class="anchor" name="how|gulp"></a>
       <div option="how" item="Gulp" class="doc-content-item">
         <h2>Gulp</h2>
+
+<p><div class="box-code"><h2>Terminal</h2><textarea class="code-bind"></textarea></div>`
+var gulp = require(&#39;gulp&#39;),
+    gride = require(&#39;gride&#39;),
+    stylus = require(&#39;gulp-stylus&#39;);</p>
+
+<p>gulp.task(&#39;styles&#39;, function() {
+    gulp.src(&#39;assets/stylus/styles.styl&#39;)
+        .pipe(stylus({ &#39;use&#39;: gride() }))
+        .pipe(gulp.dest(&#39;assets/css&#39;));
+});
+<div class="box-code"><h2>Terminal</h2><textarea class="code-bind"></textarea></div>`</p>
       </div>
       
 
@@ -177,6 +211,18 @@ div
       <a class="anchor" name="utilities|col"></a>
       <div option="utilities" item="Debug" class="doc-content-item">
         <h2>Debug</h2>
+      </div>
+      
+
+      <a class="anchor" name="support"></a>
+      <div option="false" item="Support" class="doc-content-item">
+        <h1>Support</h1>
+      </div>
+      
+
+      <a class="anchor" name="thanks"></a>
+      <div option="false" item="Thanks" class="doc-content-item">
+        <h1>Thanks</h1>
       </div>
       
 <!--SHOWDOC:end-group-content-->
