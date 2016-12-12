@@ -84,6 +84,9 @@ gulp.task('styles', function () {
   row(1024px)
 ```
 
+**[:arrow_up: back to top](#table-of-contents)**
+&nbsp;
+
 ##### col
 
 ```stylus
@@ -93,6 +96,9 @@ aside
 section
   col(3 / 5, top)
 ```
+
+**[:arrow_up: back to top](#table-of-contents)**
+&nbsp;
 
 ##### span
 
@@ -104,6 +110,24 @@ section
   span(3 / 5, top)
 ```
 
+**[:arrow_up: back to top](#table-of-contents)**
+&nbsp;
+
+### Utilities
+
+##### offset
+
+```stylus
 ```
 
+**[:arrow_up: back to top](#table-of-contents)**
+&nbsp;
+
+##### debug
+
+```stylus
+```
+
+**[:arrow_up: back to top](#table-of-contents)**
+&nbsp;
 
