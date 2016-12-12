@@ -1,36 +1,18 @@
-<img src="https://github.com/guuibayer/gride/blob/gh-pages/src/img/logo.png" alt="Gride">
+<p align="center">
+  <img src="https://github.com/guuibayer/gride/blob/gh-pages/src/img/logo.png">
+</p>
 
-[![Gitter](https://img.shields.io/badge/gitter-join%20chat-1dce73.svg)](https://gitter.im/gride-grid/Lobby)
-[![npm version](https://badge.fury.io/js/gride.svg)](https://badge.fury.io/js/gride)
-[![Licence MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/guuibayer/gride/blob/master/LICENSE.md)
+<p align="center">
+  <a href="https://gitter.im/gride-grid/Lobby"><img src="https://img.shields.io/badge/gitter-join%20chat-1dce73.svg"></a>
+  <a href="https://badge.fury.io/js/gride"><img src="https://badge.fury.io/js/gride.svg"></a> 
+  <a href="https://github.com/guuibayer/gride/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/licence-MIT-blue.svg"></a>
+</p>
 
-> Gride is a stylus and scss, simple grid system.
-
+<p align="center">
+  Gride is a stylus and scss, simple and flexible grid system, gride use simple units percent or fractions, use only display  <code>inline-block</code> and <code>vertical-align</code>, not floats, positions or flexbox.
+ </p>
 ## Documentation
 See the [documentation](http://gride.info/docs) for all methods.
-
-## How use
-Gride use simple units percent or fractions, use only display `inline-block` and `vertical-align`, not floats, positions and flexbox.
-
-
-```bash
-# First install gride with npm,
-npm install gride
-```
-
-```bash
-# Import gride in you main stylus file
-@import 'node_modules/gride/gride'
-```
-
-```bash
-# Or, if use gulp, in the pipe from stylus use grid() 
-gulp.task('styl', () => {
-  gulp.src('main.styl')
-    .pipe(stylus({ use: gride() }))
-    .pipe(gulp.dest('css/main.css'));
-});
-```
 
 ## Contributing
 Gride in construction, help build it!
