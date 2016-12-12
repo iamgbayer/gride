@@ -19,7 +19,7 @@
   - [Stylus API]()
   - [Gulp]()
   - [Grunt]()
-- [Grid](#asa)
+- [Grid]()
   - [`row`]()
   - [`col`]()
   - [`span`]()
@@ -28,3 +28,45 @@
   - [`debug`]()
 - [Support]()
 - [Thanks]()
+
+### Installation
+
+```bash
+$ npm install gride
+```
+
+**[:arrow_up: back to top](#table-of-contents)**
+
+### How use
+
+##### Stylus API
+
+```stylus
+@import 'node_modules/gride/gride'
+```
+
+**[:arrow_up: back to top](#table-of-contents)**
+
+##### Gulp
+
+```javascript
+var gulp = require('gulp')
+    , gride = require('gride')
+    , stylus = require('gulp-stylus');
+    
+gulp.task('styles', function () { 
+  gulp.src('assets/stylus/styles.styl') 
+    .pipe(stylus({ 'use': gride() })) 
+    .pipe(gulp.dest('assets/css')); 
+  });
+```
+
+**[:arrow_up: back to top](#table-of-contents)**
+
+##### Grunt
+
+```stylus
+
+```
+
+**[:arrow_up: back to top](#table-of-contents)**
