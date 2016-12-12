@@ -10,9 +10,10 @@
 
 <p align="center">
   Gride is a stylus and scss, simple and flexible grid system, gride use simple units percent or fractions, use only display  <code>inline-block</code> and <code>vertical-align</code>, not floats, positions or flexbox.
- </p>
+</p>
+ 
 ## Documentation
-See the [documentation](http://gride.info/docs) for all methods.
+See the [documentation](https://github.com/guuibayer/gride/blob/master/DOCUMENTATION.md) for all methods and others.
 
 ## Contributing
 Gride in construction, help build it!
