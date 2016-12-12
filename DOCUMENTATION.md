@@ -16,16 +16,16 @@
 ## Table of Contents
 - [Installation]()
 - [How use]()
-  - [Stylus API]()
-  - [Gulp]()
-  - [Grunt]()
-- [Grid]()
-  - [`row`]()
-  - [`col`]()
-  - [`span`]()
-- [Utilities]()
-  - [`offset`]()
-  - [`debug`]()
+  - [Stylus API]($stylus)
+  - [Gulp](#gulp)
+  - [Grunt](#grunt)
+- [Grid](#grid)
+  - [`row`](#row)
+  - [`col`](#col)
+  - [`span`](#span)
+- [Utilities](#utilities)
+  - [`offset`](#offset)
+  - [`debug`](#debug)
 - [Support]()
 - [Thanks]()
 
@@ -36,6 +36,7 @@ $ npm install gride
 ```
 
 **[:arrow_up: back to top](#table-of-contents)**
+&nbsp;
 
 ### How use
 
@@ -46,6 +47,7 @@ $ npm install gride
 ```
 
 **[:arrow_up: back to top](#table-of-contents)**
+&nbsp;
 
 ##### Gulp
 
@@ -62,6 +64,7 @@ gulp.task('styles', function () {
 ```
 
 **[:arrow_up: back to top](#table-of-contents)**
+&nbsp;
 
 ##### Grunt
 
@@ -70,3 +73,37 @@ gulp.task('styles', function () {
 ```
 
 **[:arrow_up: back to top](#table-of-contents)**
+&nbsp;
+
+### Grid
+
+##### row
+
+```stylus
+.container
+  row(1024px)
+```
+
+##### col
+
+```stylus
+aside
+  col(2 / 5, top)
+  
+section
+  col(3 / 5, top)
+```
+
+##### span
+
+```stylus
+aside
+  span(2 / 5, top)
+  
+section
+  span(3 / 5, top)
+```
+
+```
+
+
