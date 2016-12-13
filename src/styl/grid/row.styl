@@ -1,12 +1,11 @@
 /**
- * Make an row container
- * row()
- * row($margin = 0, $width = $grid-row)
+ * Row
+ * row($width = $grid-row-width, $padding = $grid-row-gutter)
  */
-row($margin = 0, $width = $grid-row)
+row($width = $grid-row-width, $padding = $grid-row-gutter)
   width 100%
   display block
-  margin $margin auto
-  padding 0 $grid-column-gutter
+  margin 0 auto
+  padding 0 $padding
   max-width $width
   font-size 0

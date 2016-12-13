@@ -1,10 +1,10 @@
 /**
- * span()
- * span($column = 1/(number of columns), $align = (middle, top, bottom))
+ * Span
+ * span($column, $align = (middle, top, bottom))
  */
-span($column = 1/$grid-column, $align = top)
-  $size = $column * 100%
-  width $size
+span($column, $align = top)
+  width $column * 100%
+  padding 0
   display inline-block
   vertical-align $align
   font-size initial
