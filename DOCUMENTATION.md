@@ -68,8 +68,26 @@ gulp.task('styles', function () {
 
 ##### Grunt
 
-```stylus
+```javascript
+module.exports = function (grunt) {
+  grunt.loadNpmTask('grunt-contrib-stylus');
 
+  grunt.initConfig({
+    'stylus': {
+      'options': {
+        'compress': false,
+        'use': [
+          require('gride')
+        ]
+      },
+      'styles': {
+        'files': {
+          'assets/css/styles.css': 'assets/stylus/styles.styl'
+        }
+      }
+    }
+  };
+};
 ```
 
 **[:arrow_up: back to top](#table-of-contents)**
