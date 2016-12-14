@@ -14,9 +14,9 @@
 </p>
 
 ## Table of Contents
-- [Installation]()
-- [How use]()
-  - [Stylus API]($stylus)
+- [Installation](#installation)
+- [How use](#how)
+  - [Stylus API](#stylus)
   - [Gulp](#gulp)
   - [Grunt](#grunt)
 - [Grid](#grid)
@@ -26,8 +26,8 @@
 - [Utilities](#utilities)
   - [`offset`](#offset)
   - [`debug`](#debug)
-- [Support]()
-- [Thanks]()
+- [Support](#support)
+- [Thanks](#thanks)
 
 ### Installation
 
@@ -97,12 +97,14 @@ module.exports = function (grunt) {
 
 ##### row
 
+For all collumns or spans were need a row, the row is a container to align the context, row accept a unique param, is the max width. 
+
 ```stylus
 .container
   row(1024px)
 ```
 
-The output is
+The output from code above is
 
 ```css
 .container {
@@ -208,6 +210,8 @@ aside {
 ```stylus
 debug()
 ```
+
+Output is
 
 ```css
 * {
