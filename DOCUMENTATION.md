@@ -102,6 +102,19 @@ module.exports = function (grunt) {
   row(1024px)
 ```
 
+The output is
+
+```css
+.container {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0 0px;
+  max-width: 1024px;
+  font-size: 0;
+}
+```
+
 **[:arrow_up: back to top](#table-of-contents)**
 &nbsp;
 
@@ -115,6 +128,26 @@ section
   col(3 / 5, top)
 ```
 
+The output from this code is
+
+```css
+aside {
+  width: 60%;
+  padding: 0 15px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: initial;
+}
+
+section {
+  width: 40%;
+  padding: 0 15px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: initial;
+}
+```
+
 **[:arrow_up: back to top](#table-of-contents)**
 &nbsp;
 
@@ -122,10 +155,28 @@ section
 
 ```stylus
 aside
-  span(2 / 5, top)
+  span(2 / 5, middle)
   
 section
-  span(3 / 5, top)
+  span(3 / 5, middle)
+```
+
+```css
+aside {
+  width: 40%;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: initial;
+}
+
+section {
+  width: 60%;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: initial;
+}
 ```
 
 **[:arrow_up: back to top](#table-of-contents)**
@@ -136,7 +187,18 @@ section
 ##### offset
 
 ```stylus
+aside
+  offset(1 / 5, right)
 ```
+
+The output from this is
+
+```css
+aside {
+  margin-right: 20%; 
+}
+```
+
 
 **[:arrow_up: back to top](#table-of-contents)**
 &nbsp;
@@ -144,6 +206,13 @@ section
 ##### debug
 
 ```stylus
+debug()
+```
+
+```css
+* {
+  background-color: rgba(255,255,255,0.2);
+}
 ```
 
 **[:arrow_up: back to top](#table-of-contents)**
