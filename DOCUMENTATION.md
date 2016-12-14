@@ -126,10 +126,10 @@ The output from code above is
 
 ```stylus
 aside
-  col(2 / 5, top)
+  col(2/5, top)
   
 section
-  col(3 / 5, top)
+  col(3/5, top)
 ```
 
 The output from this code is
@@ -159,10 +159,10 @@ section {
 
 ```stylus
 aside
-  span(2 / 5, middle)
+  span(2/5, middle)
   
 section
-  span(3 / 5, middle)
+  span(3/5, middle)
 ```
 
 ```css
@@ -192,7 +192,7 @@ section {
 
 ```stylus
 aside
-  offset(1 / 5, right)
+  offset(1/5, right)
 ```
 
 The output from this is
