@@ -31,6 +31,8 @@
 
 ### Installation
 
+Install the current version from gride and save in dev dependencies with command below
+
 ```bash
 $ npm install gride
 ```
