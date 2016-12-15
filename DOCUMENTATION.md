@@ -44,6 +44,8 @@ $ npm install gride --save-dev
 
 ##### Stylus API
 
+The easiest way to use gride is by importing the file directly, see
+
 ```stylus
 @import 'node_modules/gride/gride'
 ```
@@ -219,7 +221,7 @@ Output is
 
 ```css
 * {
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 ```
 
