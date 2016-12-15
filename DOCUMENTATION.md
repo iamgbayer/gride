@@ -55,6 +55,8 @@ The easiest way to use gride is by importing the file directly, see
 
 ##### Gulp
 
+To use gride with gulp, needs use [gulp-stylus](https://www.npmjs.org/package/gulp-stylus) and include gride call in use option.  
+
 ```javascript
 var gulp = require('gulp')
     , gride = require('gride')
