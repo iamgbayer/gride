@@ -130,7 +130,7 @@ The output from code above is
 
 ##### Col
 
-The collumns accept two parameters, the first is a fraction, example, `2/5` where 5 is the total of collumns and this collumn will occupy 2 from 5, or 40% from 100%, the last parameter is the vertical alignment, the possible values is top, middle and bottom.  
+The collumns accept two parameters, the first is a fraction or percent, example `2/5` or `40%/100% ` where 5 is the total of collumns and this collumn will occupy **2** from **5**, or **40%** from **100%**, the last parameter is the vertical alignment, the possible values is `top`, `middle` and `bottom`.  
 
 ```stylus
 aside
