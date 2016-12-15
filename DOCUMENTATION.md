@@ -31,10 +31,10 @@
 
 ### Installation
 
-Install the current version from gride and save in dev dependencies with command below
+Install the current version from gride and save in dev dependencies with command below to save in dev dependencies.
 
 ```bash
-$ npm install gride
+$ npm install gride --save-dev
 ```
 
 **[:arrow_up: back to top](#table-of-contents)**
@@ -69,6 +69,8 @@ gulp.task('styles', function () {
 &nbsp;
 
 ##### Grunt
+
+This is a example to use gride with grunt, a basic example
 
 ```javascript
 module.exports = function (grunt) {
