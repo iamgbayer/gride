@@ -15,8 +15,8 @@
 
 ## Table of Contents
 - [Installation](#installation)
-- [How use](#how)
-  - [Stylus API](#stylus)
+- [How use](#how-use)
+  - [Stylus API](#stylus-api)
   - [Gulp](#gulp)
   - [Grunt](#grunt)
 - [Grid](#grid)
