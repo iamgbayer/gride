@@ -44,7 +44,7 @@ $ npm install gride --save-dev
 
 ##### Stylus API
 
-The easiest way to use gride is by importing the file directly, see
+The easiest way to use gride is by importing the file directly, see.
 
 ```stylus
 @import 'node_modules/gride/gride'
@@ -74,7 +74,7 @@ gulp.task('styles', function () {
 
 ##### Grunt
 
-This is a example to use gride with grunt, a basic example
+This is a example to use gride with grunt.
 
 ```javascript
 module.exports = function (grunt) {
@@ -103,7 +103,7 @@ module.exports = function (grunt) {
 
 ### Grid
 
-##### row
+##### Row
 
 For all collumns or spans were need a row, the row is a container to align the context, row accept a unique param, is the max width. 
 
@@ -128,7 +128,9 @@ The output from code above is
 **[:arrow_up: back to top](#table-of-contents)**
 &nbsp;
 
-##### col
+##### Col
+
+The collumns accept two parameters, the first is a fraction, example, `2/5` where 5 is the total of collumns and this collumn will occupy 2 from 5, or 40% from 100%, the last parameter is the vertical alignment, the possible values is top, middle and bottom.  
 
 ```stylus
 aside
@@ -142,7 +144,7 @@ The output from this code is
 
 ```css
 aside {
-  width: 60%;
+  width: 40%;
   padding: 0 15px;
   display: inline-block;
   vertical-align: top;
@@ -150,7 +152,7 @@ aside {
 }
 
 section {
-  width: 40%;
+  width: 60%;
   padding: 0 15px;
   display: inline-block;
   vertical-align: top;
@@ -161,7 +163,7 @@ section {
 **[:arrow_up: back to top](#table-of-contents)**
 &nbsp;
 
-##### span
+##### Span
 
 ```stylus
 aside
@@ -194,7 +196,7 @@ section {
 
 ### Utilities
 
-##### offset
+##### Offset
 
 ```stylus
 aside
@@ -213,7 +215,7 @@ aside {
 **[:arrow_up: back to top](#table-of-contents)**
 &nbsp;
 
-##### debug
+##### Debug
 
 ```stylus
 debug()
