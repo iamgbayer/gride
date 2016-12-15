@@ -200,16 +200,24 @@ section {
 
 ##### Offset
 
+The offset method is an auxiliary to be used along with the `col` or `span` in the example below, we move the column **aside** to the right, centering it.
+
 ```stylus
 aside
-  offset(1/5, right)
+  offset(1/3, left)
+  col(1/3, top)
 ```
 
-The output from this is
+The output from this example is the aside centralized.
 
 ```css
 aside {
-  margin-right: 20%; 
+  margin-right: 33,333333333%;
+  width: 33,333333333%;
+  padding: 0 15px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: initial;
 }
 ```
 
