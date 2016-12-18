@@ -1,0 +1,12 @@
+/**
+ * Row
+ * @mixin row($width: $grid-row-width, $padding: $grid-row-gutter)
+ */
+ @mixin row($width: $grid-row-width, $padding: $grid-row-gutter){
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0 $padding;
+    max-width: $width;
+    font-size: 0;
+ }

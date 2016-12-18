@@ -1,0 +1,7 @@
+/**
+ * Offset
+ * @mixin offset($column, $side: (left, right))
+ */
+@mixin offset($column, $side){
+  margin-#{$side}:  $column * 100%;
+}

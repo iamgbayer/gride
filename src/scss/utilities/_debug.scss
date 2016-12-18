@@ -1,0 +1,3 @@
+@mixin debug($color: #e74c3c){
+    *{background-color: lighten($color, 20%);}
+}
