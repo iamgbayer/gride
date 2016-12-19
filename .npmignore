@@ -1,0 +1,5 @@
+test/
+.editorconfig
+.sass-lint.yml
+.stylintrc
+CONTRIBUTING.md
