@@ -6,7 +6,6 @@ import stylus from 'stylus'
 import test from 'tape'
 import gride from '../index'
 import {StringDecoder} from 'string_decoder'
-import removeEmptyLines from 'remove-blank-lines'
 
 const testPath = path.join(__dirname, './fixtures')
 
