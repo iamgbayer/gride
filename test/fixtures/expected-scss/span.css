@@ -1,0 +1,23 @@
+.span {
+  display: inline-block;
+  font-size: initial;
+  padding: 0;
+  vertical-align: top;
+  width: 100%;
+}
+
+.span-align-middle {
+  display: inline-block;
+  font-size: initial;
+  padding: 0;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.span-align-bottom {
+  display: inline-block;
+  font-size: initial;
+  padding: 0;
+  vertical-align: bottom;
+  width: 100%;
+}

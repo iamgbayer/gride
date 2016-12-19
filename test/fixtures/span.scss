@@ -1,0 +1,13 @@
+@import 'gride.scss';
+
+.span {
+  @include span(1);
+}
+
+.span-align-middle {
+  @include span(1, middle);
+}
+
+.span-align-bottom {
+  @include span(1, bottom);
+}

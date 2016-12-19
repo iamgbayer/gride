@@ -1,7 +1,7 @@
-/**
- * Span
- * @mixin span($column, $align: (middle, top, bottom))
- */
+// *
+//  * Span
+//  * @mixin span($column, $align: (middle, top, bottom))
+// *
 @mixin span($column, $align: top) {
   display: inline-block;
   font-size: initial;

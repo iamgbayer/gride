@@ -1,21 +1,21 @@
 .span {
-  width: 100%;
-  padding: 0;
   display: inline-block;
-  vertical-align: top;
   font-size: initial;
+  padding: 0;
+  vertical-align: top;
+  width: 100%;
 }
 .span-align-middle {
-  width: 100%;
-  padding: 0;
   display: inline-block;
-  vertical-align: middle;
   font-size: initial;
+  padding: 0;
+  vertical-align: middle;
+  width: 100%;
 }
 .span-align-bottom {
-  width: 100%;
-  padding: 0;
   display: inline-block;
-  vertical-align: bottom;
   font-size: initial;
+  padding: 0;
+  vertical-align: bottom;
+  width: 100%;
 }

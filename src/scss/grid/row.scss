@@ -1,7 +1,7 @@
-/**
- * Row
- * @mixin row($width: $grid-row-width, $padding: $grid-row-gutter)
- */
+// *
+//  * Row
+//  * @mixin row($width: $grid-row-width, $padding: $grid-row-gutter)
+// *
 @mixin row($width: $grid-row-width, $padding: $grid-row-gutter) {
   display: block;
   font-size: 0;

@@ -1,0 +1,9 @@
+@import 'gride.scss';
+
+.offset-left {
+  @include offset(2 / 10, left);
+}
+
+.offset-right {
+  @include offset(2 / 10, right);
+}

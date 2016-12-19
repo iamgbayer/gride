@@ -1,0 +1,13 @@
+@import 'gride.scss';
+
+.col-1 {
+  @include col(1);
+}
+
+.col-align-middle {
+  @include col(1, middle);
+}
+
+.col-align-bottom {
+  @include col(1, bottom);
+}

@@ -1,7 +1,7 @@
-/**
- * Column
- * @mixin col($column, $align: (middle, top, bottom), $padding: $grid-column-gutter)
- */
+// *
+//  * Column
+//  * @mixin col($column, $align: (middle, top, bottom), $padding: $grid-column-gutter)
+// *
 @mixin col($column, $align: top, $padding: $grid-column-gutter) {
   display: inline-block;
   font-size: initial;
