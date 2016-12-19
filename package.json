@@ -6,7 +6,8 @@
   "scripts": {
     "test": "tape -r babel-register test/*.js",
     "test:watch": "tape-watch -r babel-register test/*.js -p tap-diff",
-    "lint:styl": "stylint ./src/styl/ -c .stylintrc"
+    "lint:styl": "stylint ./src/styl/ -c .stylintrc",
+    "lint:scss": "sass-lint -c .sass-lint.yml -v"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
     "babel-preset-es2015": "^6.18.0",
     "babel-register": "^6.18.0",
     "css-parse": "^2.0.0",
+    "sass-lint": "^1.10.2",
     "stylint": "^1.5.9",
     "stylus": "^0.54.5",
     "tap-diff": "^0.1.1",

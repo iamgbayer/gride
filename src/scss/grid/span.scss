@@ -2,10 +2,10 @@
  * Span
  * @mixin span($column, $align: (middle, top, bottom))
  */
- @mixin span($column, $align: top){
-    width: $column * 100%;
-    padding: 0;
-    display: inline-block;
-    vertical-align: $align;
-    font-size: initial;
- }
+@mixin span($column, $align: top) {
+  display: inline-block;
+  font-size: initial;
+  padding: 0;
+  vertical-align: $align;
+  width: $column * 100%;
+}
