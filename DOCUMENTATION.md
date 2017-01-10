@@ -52,7 +52,7 @@ Stylus:
 ```
 
 SCSS:
-```stylus
+```scss
 @import 'node_modules/gride/gride';
 ```
 
@@ -61,7 +61,7 @@ SCSS:
 
 ##### Gulp
 
-To use gride with gulp, needs use [gulp-stylus](https://www.npmjs.org/package/gulp-stylus) and include gride call in use option.  
+To use gride stylus with gulp, needs use [gulp-stylus](https://www.npmjs.org/package/gulp-stylus) and include gride call in use option.  
 
 ```javascript
 var gulp = require('gulp')
@@ -80,7 +80,7 @@ gulp.task('styles', function () {
 
 ##### Grunt
 
-This is a example to use gride with grunt.
+This is a example to use gride stylus with grunt.
 
 ```javascript
 module.exports = function (grunt) {
@@ -120,7 +120,7 @@ Stylus:
 ```
 SCSS:
 ```scss
-.container{
+.container {
   @include row(1024px);
 }
 ```
@@ -155,11 +155,11 @@ section
 
 SCSS:
 ```scss
-aside{
+aside {
   @include col(2/5, top);
 }
 
-section{
+section {
   @include col(3/5, top);
 }
 ```
@@ -201,11 +201,11 @@ section
 ```
 SCSS:
 ```scss
-aside{
+aside {
   @include span(2/5, middle);
 }
 
-section{
+section {
   @include span(3/5, middle);
 }
 ```
@@ -243,9 +243,10 @@ aside
   offset(1/3, left)
   col(1/3, top)
 ```
+
 SCSS:
 ```scss
-aside{
+aside {
   @include offset(1/3, left);
   @include col(1/3, top);
 }
