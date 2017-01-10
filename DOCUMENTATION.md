@@ -16,7 +16,7 @@
 ## Table of Contents
 - [Installation](#installation)
 - [How use](#how-use)
-  - [Stylus API](#stylus-api)
+  - [API](#api)
   - [Gulp](#gulp)
   - [Grunt](#grunt)
 - [Grid](#grid)
@@ -42,12 +42,18 @@ $ npm install gride --save-dev
 
 ### How use
 
-##### Stylus API
+##### API
 
 The easiest way to use gride is by importing the file directly, see.
 
+Stylus:
 ```stylus
 @import 'node_modules/gride/gride'
+```
+
+SCSS:
+```scss
+@import 'node_modules/gride/gride';
 ```
 
 **[:arrow_up: back to top](#table-of-contents)**
@@ -55,7 +61,7 @@ The easiest way to use gride is by importing the file directly, see.
 
 ##### Gulp
 
-To use gride with gulp, needs use [gulp-stylus](https://www.npmjs.org/package/gulp-stylus) and include gride call in use option.  
+To use gride stylus with gulp, needs use [gulp-stylus](https://www.npmjs.org/package/gulp-stylus) and include gride call in use option.  
 
 ```javascript
 var gulp = require('gulp')
@@ -74,7 +80,7 @@ gulp.task('styles', function () {
 
 ##### Grunt
 
-This is a example to use gride with grunt.
+This is a example to use gride stylus with grunt.
 
 ```javascript
 module.exports = function (grunt) {
@@ -107,11 +113,17 @@ module.exports = function (grunt) {
 
 For all collumns or spans were need a row, the row is a container to align the context, row accept a unique param, is the max width. 
 
+Stylus:
 ```stylus
 .container
   row(1024px)
 ```
-
+SCSS:
+```scss
+.container {
+  @include row(1024px);
+}
+```
 The output from code above is
 
 ```css
@@ -132,12 +144,24 @@ The output from code above is
 
 The collumns accept two parameters, the first is a fraction or percent, example `2/5` or `40%/100% ` where 5 is the total of collumns and this collumn will occupy **2** from **5**, or **40%** from **100%**, the last parameter is the vertical alignment, the possible values is `top`, `middle` and `bottom`, and col use gutters for space between the collumns.   
 
+Stylus:
 ```stylus
 aside
   col(2/5, top)
   
 section
   col(3/5, top)
+```
+
+SCSS:
+```scss
+aside {
+  @include col(2/5, top);
+}
+
+section {
+  @include col(3/5, top);
+}
 ```
 
 The output from this code is
@@ -167,12 +191,23 @@ section {
 
 The span method is based and follows the same principle of calculation in the `col` method, accept fractions or percent in the first parameter and the last accept `top`, `middle` and `bottom`, but the difference is that he has no gutters.
 
+Stylus:
 ```stylus
 aside
   span(2/5, middle)
   
 section
   span(3/5, middle)
+```
+SCSS:
+```scss
+aside {
+  @include span(2/5, middle);
+}
+
+section {
+  @include span(3/5, middle);
+}
 ```
 
 ```css
@@ -202,10 +237,19 @@ section {
 
 The offset method is an auxiliary to be used along with the `col` or `span` in the example below, we move the column **aside** to the right, centering it.
 
+Stylus:
 ```stylus
 aside
   offset(1/3, left)
   col(1/3, top)
+```
+
+SCSS:
+```scss
+aside {
+  @include offset(1/3, left);
+  @include col(1/3, top);
+}
 ```
 
 The output from this example is the aside centralized.
@@ -226,9 +270,14 @@ aside {
 &nbsp;
 
 ##### Debug
-
+Stylus:
 ```stylus
 debug()
+```
+
+SCSS:
+```scss
+@include debug();
 ```
 
 Output is
