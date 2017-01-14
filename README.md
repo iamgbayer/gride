@@ -12,7 +12,9 @@
   Gride is a stylus and scss, simple and flexible grid system, gride use simple units percent or fractions, use only display  <code>inline-block</code> and <code>vertical-align</code>, not floats, positions or flexbox.
 </p>
 
-## Table of Contents
+# Quick Start
+
+
 - [Installation](#installation)
 - [How use](#how-use)
   - [API](#api)
@@ -28,7 +30,7 @@
 - [Support](#support)
 - [Thanks](#thanks)
 
-### Installation
+## Installation
 
 Install the current version from gride and save in dev dependencies with command below.
 
@@ -36,10 +38,7 @@ Install the current version from gride and save in dev dependencies with command
 $ npm install gride --save-dev
 ```
 
-
-### How use
-
-##### API
+## Import main file
 
 The easiest way to use gride is by importing the file directly, see.
 
@@ -54,7 +53,7 @@ SCSS:
 ```
 
 
-##### Gulp
+## Gulp
 
 To use gride stylus with gulp, needs use [gulp-stylus](https://www.npmjs.org/package/gulp-stylus) and include gride call in use option.  
 
@@ -71,7 +70,7 @@ gulp.task('styles', function () {
 ```
 
 
-##### Grunt
+## Grunt
 
 This is a example to use gride stylus with grunt.
 
@@ -98,9 +97,9 @@ module.exports = function (grunt) {
 ```
 
 
-### Grid
+# Grid
 
-##### Row
+## Row
 
 For all collumns or spans were need a row, the row is a container to align the context, row accept a unique param, is the max width. 
 
@@ -129,7 +128,7 @@ The output from code above is
 ```
 
 
-##### Col
+## Col
 
 The collumns accept two parameters, the first is a fraction or percent, example `2/5` or `40%/100% ` where 5 is the total of collumns and this collumn will occupy **2** from **5**, or **40%** from **100%**, the last parameter is the vertical alignment, the possible values is `top`, `middle` and `bottom`, and col use gutters for space between the collumns.   
 
@@ -174,7 +173,7 @@ section {
 ```
 
 
-##### Span
+## Span
 
 The span method is based and follows the same principle of calculation in the `col` method, accept fractions or percent in the first parameter and the last accept `top`, `middle` and `bottom`, but the difference is that he has no gutters.
 
@@ -216,9 +215,9 @@ section {
 ```
 
 
-### Utilities
+# Utilities
 
-##### Offset
+## Offset
 
 The offset method is an auxiliary to be used along with the `col` or `span` in the example below, we move the column **aside** to the right, centering it.
 
@@ -250,7 +249,7 @@ aside {
 }
 ```
 
-##### Debug
+## Debug
 Stylus:
 ```stylus
 debug()
@@ -269,6 +268,6 @@ Output is
 }
 ```
 
-### Support
+# Support
 
-### Thanks
+# Thanks
