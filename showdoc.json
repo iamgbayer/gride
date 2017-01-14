@@ -1,9 +1,0 @@
-{
-    "path": "./src",
-    "dest": "./docs",
-    "logo": "../src/img/logo.png",
-    "style": "../src/css/main.css",
-    "assets": "../src/css/main.css",
-    "previewMobile": false,
-    "title": "Gride"
-}
