@@ -14,22 +14,6 @@
 
 # Quick Start
 
-
-- [Installation](#installation)
-- [How use](#how-use)
-  - [API](#api)
-  - [Gulp](#gulp)
-  - [Grunt](#grunt)
-- [Grid](#grid)
-  - [`row`](#row)
-  - [`col`](#col)
-  - [`span`](#span)
-- [Utilities](#utilities)
-  - [`offset`](#offset)
-  - [`debug`](#debug)
-- [Support](#support)
-- [Thanks](#thanks)
-
 ## Installation
 
 Install the current version from gride and save in dev dependencies with command below.
