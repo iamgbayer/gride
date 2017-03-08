@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.rawgit.com/guuibayer/gride/fbff6b74/logo.png">
+  <img src="https://rawgit.com/guuibayer/gride/master/logo.png">
 </p>
 
 <p align="center">
