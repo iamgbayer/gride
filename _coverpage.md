@@ -13,4 +13,4 @@
 </p>
 
 [GitHub](https://github.com/guuibayer/gride/)
-[Get Started](#docsify)
+[Get Started](#quick-start)
