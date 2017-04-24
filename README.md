@@ -81,7 +81,7 @@ module.exports = function (grunt) {
 ```
 
 
-# Grid
+# Guide from grid properties
 
 ## Row
 
