@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.rawgit.com/guuibayer/gride/gh-pages/src/img/logo.png">
+    <img src="https://rawgit.com/guuibayer/gride/master/logo.png">
 </p>
 
 <p align="center">
@@ -255,3 +255,4 @@ Output is
 # Support
 
 # Thanks
+Everyone who has [contributed](https://github.com/guuibayer/gride/graphs/contributors).
