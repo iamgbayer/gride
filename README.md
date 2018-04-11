@@ -13,7 +13,7 @@
 </p>
 
 ## Documentation
-See the [documentation](https://gride.info) for all methods and others.
+See the [documentation](https://guuibayer.github.io/gride) for all methods and others.
 
 ## Contributing
 Gride in construction, help build it!
